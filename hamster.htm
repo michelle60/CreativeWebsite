@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Hamster</title>
+<link href="hamster.css" rel="stylesheet" type="text/css">
+	<script>
+		var squeeks = new Audio ();
+		squeeks.src= "audio/squeeks.m4a"
+	</script>
+</head>
+
+<body>
+	
+<!---Images--->
+	<img src="Images/background3.png"/>
+	<img src="Images/hamster1.png" class= "hamster1"
+		onMouseOver="this.src='images/hamster2.png'"
+ 		onMouseOut="this.src='images/hamster1.png'"
+			alt=""/>	
+	<img src="Images/hamster2.png" class= "hamster2" alt=""/>	
+	
+<!---Audio--->
+	<nav>
+		<a href="#" onClick="squeeks.play()"><img src="Images/hamster2.png" class="hamster2"><a/>
+	</nav>
+		
+</body>
+</html>

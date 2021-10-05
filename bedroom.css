@@ -1,0 +1,33 @@
+@charset "UTF-8";
+body {
+	padding: 0;
+	margin: 0;
+}
+
+img {
+	position: absolute;
+}
+.hamster {
+	left: 597px;
+	top: 40px;
+}
+
+.sim {
+	left: 509px;
+	top: 51px;
+}
+
+.stuff {
+	left: 0px;
+	top: 77px;
+}
+
+.computer {
+	left: 8px;
+	top: 552px;
+}
+
+.lamp {
+	left: 972px;
+	top: 150px;
+}

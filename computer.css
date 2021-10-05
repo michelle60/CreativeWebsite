@@ -1,0 +1,47 @@
+@charset "UTF-8";
+body {
+	padding: 0;
+	margin: 0;
+}
+
+img {
+    position: absolute;
+    left: 0px;
+    top: 1px;
+}
+.keyboard {
+  left: 446px;
+  top: 605px;
+}
+
+.mouse {
+  left: 1087px;
+  top: 584px;
+}
+
+.musicicon {
+  left: 479px;
+  top: 305px;
+}
+
+.interneticon {
+  left: 463px;
+  top: 182px;
+}
+.photoicon {
+    left: 473px;
+    top: 69px;
+}
+
+.window {
+    left: 531px;
+    top: 55px;
+    z-index: 100
+}
+.window{
+    display:none;
+}
+
+p.one:hover + img{
+    display: block;
+}

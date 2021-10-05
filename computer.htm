@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Computer</title>
+<link href="computer.css" rel="stylesheet" type="text/css">
+	<script>
+		var keyboard = new Audio ();
+		keyboard.src= "audio/keyboard.m4a"
+		var mouse = new Audio ();
+		mouse.src= "audio/mouse.m4a"
+		var music = new Audio ();
+		music.src= "audio/music.m4a"
+	</script>
+</head>
+
+<body>
+	
+<!---Images--->
+	<img src="Images/background2.png" class="img" alt="" />
+	<img src="Images/keyboard.png" class="keyboard" alt="" />
+	<img src="Images/mouse.png" class="mouse" alt="" />
+	<img src="Images/photoicon.png" class="photoicon" alt="" />
+	<img src="Images/interneticon.png" class="interneticon" alt="" />
+	<img src="Images/musicicon.png" class="musicicon" alt="" />
+	
+<!---hover--->
+	<p class="one"><img src="Images/photoicon.png" class="photoicon" alt="" /></p>
+	<img src="Images/photowindow.png" class="window" alt=""/>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+<!---audio--->
+	<nav><a href="#" onClick="keyboard.play()"><img src="Images/keyboard.png" class="keyboard"><a/></nav>
+	<nav><a href="#" onClick="mouse.play()"><img src="Images/mouse.png" class="mouse"><a/></nav>
+	<nav><p class="one"><a href="#" onClick="music.play()"><img src="Images/musicicon.png" class="musicicon"></p><img src="Images/musicwindow.png" class="window"<a/></nav>
+
+<!---link--->
+<a href="https://www.youtube.com/watch?v=FSEPHq_7pHc&t=7s" target="_blank"><img src="Images/interneticon.png" class="interneticon"</a>
+	
+</body>
+</html>
